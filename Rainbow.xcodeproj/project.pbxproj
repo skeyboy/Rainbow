@@ -15,10 +15,10 @@
 		5A8B26C1D13BA4AC72B7762B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B2B6EC52C1743BC8E6E60 /* SceneDelegate.swift */; };
 		5A8B27D6956900276C83B81C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8B21E716B6AD7016506534 /* Main.storyboard */; };
 		5A8B27FE79631E68E9139D86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B2AD8D9E586ED85354543 /* AppDelegate.swift */; };
+		5A8B29965F84002725A6FC67 /* Rainbow.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5A8B2C4ACA5CB82007E893AB /* Rainbow.podspec */; };
 		5A8B2A5A5039B215EE9316FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B2171B423D1FD4708626C /* ViewController.swift */; };
 		5A8B2BB0F91226DF82811B3D /* RainbowModulePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B2D86D9856EF7E5E5A96A /* RainbowModulePlugin.swift */; };
 		5A8B2CB21C1417EA7ABD7A59 /* RainbowLifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B284FAB04BA7AFA1A6D6B /* RainbowLifecycle.swift */; };
-		5A8B2D99729DC49B4127BB18 /* Rainbow.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5A8B2E337F642B64769F30DB /* Rainbow.podspec */; };
 		5A8B2E0A5E6025A64210E505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8B2F2E1F8EACCC6D9D4B54 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -34,9 +34,9 @@
 		5A8B2ACDB0DBF1314CEBD2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		5A8B2AD8D9E586ED85354543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A8B2B6EC52C1743BC8E6E60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A8B2C4ACA5CB82007E893AB /* Rainbow.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = Rainbow.podspec; sourceTree = "<group>"; };
 		5A8B2C5C724E308F39B1FBF1 /* RainbowModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainbowModule.swift; sourceTree = "<group>"; };
 		5A8B2D86D9856EF7E5E5A96A /* RainbowModulePlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainbowModulePlugin.swift; sourceTree = "<group>"; };
-		5A8B2E337F642B64769F30DB /* Rainbow.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = Rainbow.podspec; sourceTree = "<group>"; };
 		82FAD0DD7A7DAE8B44BC4607 /* Pods-Rainbow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rainbow.debug.xcconfig"; path = "Target Support Files/Pods-Rainbow/Pods-Rainbow.debug.xcconfig"; sourceTree = "<group>"; };
 		88532149B5702DCAD8363274 /* Pods_Rainbow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rainbow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F003DC5CA3CE94EAE5D07EC6 /* Pods-Rainbow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rainbow.release.xcconfig"; path = "Target Support Files/Pods-Rainbow/Pods-Rainbow.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,7 +85,6 @@
 				5A8B2171B423D1FD4708626C /* ViewController.swift */,
 				5A8B21E716B6AD7016506534 /* Main.storyboard */,
 				5A8B2658525A4D2115902EFF /* Sources */,
-				5A8B2E337F642B64769F30DB /* Rainbow.podspec */,
 			);
 			path = Rainbow;
 			sourceTree = "<group>";
@@ -97,6 +96,7 @@
 				5A8B2C958828D7744DA4B1E4 /* Rainbow */,
 				6FB79715C7277FE202589C15 /* Pods */,
 				8655FFFC24B4FFDB98696012 /* Frameworks */,
+				5A8B2C4ACA5CB82007E893AB /* Rainbow.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,7 +169,7 @@
 				5A8B20645FBAA0E375E45B65 /* Assets.xcassets in Resources */,
 				5A8B2E0A5E6025A64210E505 /* LaunchScreen.storyboard in Resources */,
 				5A8B27D6956900276C83B81C /* Main.storyboard in Resources */,
-				5A8B2D99729DC49B4127BB18 /* Rainbow.podspec in Resources */,
+				5A8B29965F84002725A6FC67 /* Rainbow.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
