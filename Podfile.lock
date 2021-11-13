@@ -1,3 +1,22 @@
-PODFILE CHECKSUM: 2cea9c1593415f5fe93dfeed5aad1687eb2f5173
+PODS:
+  - Rainbow (0.0.1)
+
+DEPENDENCIES:
+  - "Rainbow (from `git@github.com:skeyboy/Rainbow.git`, branch `dev`)"
+
+EXTERNAL SOURCES:
+  Rainbow:
+    :branch: dev
+    :git: "git@github.com:skeyboy/Rainbow.git"
+
+CHECKOUT OPTIONS:
+  Rainbow:
+    :commit: 5aed0ae62cc1ea3a572758358d61b8b0ebc692e8
+    :git: "git@github.com:skeyboy/Rainbow.git"
+
+SPEC CHECKSUMS:
+  Rainbow: e5c59a19709c912624d1608d2eb9b80062be221c
+
+PODFILE CHECKSUM: 8d1eed711f79161ebda355fcd2df4a1cd6e06c74
 
 COCOAPODS: 1.10.1

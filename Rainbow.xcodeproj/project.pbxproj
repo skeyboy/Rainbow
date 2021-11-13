@@ -12,31 +12,45 @@
 		5A8B20FDEBA646DCAEAB1460 /* RainbowModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B2C5C724E308F39B1FBF1 /* RainbowModule.swift */; };
 		5A8B2203A543346A7EDC8C02 /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B28C36DAB1FA8482184AA /* Rainbow.swift */; };
 		5A8B22D7E934B66F1F0E9C1E /* RainbowRouteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B2896A1042D116AC8D094 /* RainbowRouteProtocol.swift */; };
+		5A8B22EF07C20F8C31CBA3ED /* UserDefault+Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B27C358411C04EDDBC90F /* UserDefault+Wrapper.swift */; };
+		5A8B24EBD757F6F5B87ED519 /* DispatchQueue+Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B2E6E7CBA1D205D00BEF0 /* DispatchQueue+Once.swift */; };
 		5A8B26C1D13BA4AC72B7762B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B2B6EC52C1743BC8E6E60 /* SceneDelegate.swift */; };
+		5A8B26D88966BFC96BAD81F6 /* Deferred.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B2C724F26009405B1CEE4 /* Deferred.swift */; };
 		5A8B27D6956900276C83B81C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8B21E716B6AD7016506534 /* Main.storyboard */; };
 		5A8B27FE79631E68E9139D86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B2AD8D9E586ED85354543 /* AppDelegate.swift */; };
+		5A8B2847FF1B5E26C0A5AB0F /* AssociateObjcProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B27D32CED083CCBC4F3B9 /* AssociateObjcProtocol.swift */; };
 		5A8B29965F84002725A6FC67 /* Rainbow.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5A8B2C4ACA5CB82007E893AB /* Rainbow.podspec */; };
 		5A8B2A5A5039B215EE9316FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B2171B423D1FD4708626C /* ViewController.swift */; };
+		5A8B2B21A1B7D1F2DCA6E167 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B29CC1531C63186D30B1C /* UIColor+Ext.swift */; };
 		5A8B2BB0F91226DF82811B3D /* RainbowModulePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B2D86D9856EF7E5E5A96A /* RainbowModulePlugin.swift */; };
+		5A8B2C95367AE83F26A379B1 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B21F9F43E96179A2E8F08 /* Then.swift */; };
 		5A8B2CB21C1417EA7ABD7A59 /* RainbowLifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B284FAB04BA7AFA1A6D6B /* RainbowLifecycle.swift */; };
+		5A8B2E003AD128DD29F0D37E /* Default+Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B26481464E160FEF9AF89 /* Default+Wrapper.swift */; };
 		5A8B2E0A5E6025A64210E505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8B2F2E1F8EACCC6D9D4B54 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A8B2171B423D1FD4708626C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A8B21F9F43E96179A2E8F08 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Then/Then.swift; sourceTree = "<group>"; };
+		5A8B26481464E160FEF9AF89 /* Default+Wrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Default+Wrapper.swift"; path = "Foundation/Default+Wrapper.swift"; sourceTree = "<group>"; };
+		5A8B27C358411C04EDDBC90F /* UserDefault+Wrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UserDefault+Wrapper.swift"; path = "Foundation/UserDefault+Wrapper.swift"; sourceTree = "<group>"; };
+		5A8B27D32CED083CCBC4F3B9 /* AssociateObjcProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssociateObjcProtocol.swift; path = Foundation/AssociateObjcProtocol.swift; sourceTree = "<group>"; };
 		5A8B284FAB04BA7AFA1A6D6B /* RainbowLifecycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainbowLifecycle.swift; sourceTree = "<group>"; };
 		5A8B2869E5DBBBC142A88595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A8B2892AC09C4F5E0D00736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A8B2896A1042D116AC8D094 /* RainbowRouteProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainbowRouteProtocol.swift; sourceTree = "<group>"; };
 		5A8B28C36DAB1FA8482184AA /* Rainbow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rainbow.swift; sourceTree = "<group>"; };
 		5A8B28EDC578AB8FCF616209 /* Rainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8B29CC1531C63186D30B1C /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Ext.swift"; path = "HuTool/UIColor+Ext.swift"; sourceTree = "<group>"; };
 		5A8B2A0562786960BAED3AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A8B2ACDB0DBF1314CEBD2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		5A8B2AD8D9E586ED85354543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A8B2B6EC52C1743BC8E6E60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5A8B2C4ACA5CB82007E893AB /* Rainbow.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = Rainbow.podspec; sourceTree = "<group>"; };
 		5A8B2C5C724E308F39B1FBF1 /* RainbowModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainbowModule.swift; sourceTree = "<group>"; };
+		5A8B2C724F26009405B1CEE4 /* Deferred.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Deferred.swift; path = Foundation/Deferred.swift; sourceTree = "<group>"; };
 		5A8B2D86D9856EF7E5E5A96A /* RainbowModulePlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainbowModulePlugin.swift; sourceTree = "<group>"; };
+		5A8B2E6E7CBA1D205D00BEF0 /* DispatchQueue+Once.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Once.swift"; path = "Foundation/DispatchQueue+Once.swift"; sourceTree = "<group>"; };
 		82FAD0DD7A7DAE8B44BC4607 /* Pods-Rainbow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rainbow.debug.xcconfig"; path = "Target Support Files/Pods-Rainbow/Pods-Rainbow.debug.xcconfig"; sourceTree = "<group>"; };
 		88532149B5702DCAD8363274 /* Pods_Rainbow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rainbow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F003DC5CA3CE94EAE5D07EC6 /* Pods-Rainbow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rainbow.release.xcconfig"; path = "Target Support Files/Pods-Rainbow/Pods-Rainbow.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +76,13 @@
 				5A8B2D86D9856EF7E5E5A96A /* RainbowModulePlugin.swift */,
 				5A8B2C5C724E308F39B1FBF1 /* RainbowModule.swift */,
 				5A8B284FAB04BA7AFA1A6D6B /* RainbowLifecycle.swift */,
+				5A8B29CC1531C63186D30B1C /* UIColor+Ext.swift */,
+				5A8B21F9F43E96179A2E8F08 /* Then.swift */,
+				5A8B2E6E7CBA1D205D00BEF0 /* DispatchQueue+Once.swift */,
+				5A8B27D32CED083CCBC4F3B9 /* AssociateObjcProtocol.swift */,
+				5A8B2C724F26009405B1CEE4 /* Deferred.swift */,
+				5A8B27C358411C04EDDBC90F /* UserDefault+Wrapper.swift */,
+				5A8B26481464E160FEF9AF89 /* Default+Wrapper.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -129,6 +150,7 @@
 				5A8B224D186F8098009EC5A1 /* Sources */,
 				5A8B2434E15027236C2A8EE4 /* Frameworks */,
 				5A8B2A92D7B8B97A04B24D96 /* Resources */,
+				C7979BDABB44B11982BBFFCF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,6 +220,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C7979BDABB44B11982BBFFCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rainbow/Pods-Rainbow-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Rainbow/Rainbow.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rainbow.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rainbow/Pods-Rainbow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -213,6 +253,13 @@
 				5A8B2BB0F91226DF82811B3D /* RainbowModulePlugin.swift in Sources */,
 				5A8B20FDEBA646DCAEAB1460 /* RainbowModule.swift in Sources */,
 				5A8B2CB21C1417EA7ABD7A59 /* RainbowLifecycle.swift in Sources */,
+				5A8B2B21A1B7D1F2DCA6E167 /* UIColor+Ext.swift in Sources */,
+				5A8B2C95367AE83F26A379B1 /* Then.swift in Sources */,
+				5A8B24EBD757F6F5B87ED519 /* DispatchQueue+Once.swift in Sources */,
+				5A8B2847FF1B5E26C0A5AB0F /* AssociateObjcProtocol.swift in Sources */,
+				5A8B26D88966BFC96BAD81F6 /* Deferred.swift in Sources */,
+				5A8B22EF07C20F8C31CBA3ED /* UserDefault+Wrapper.swift in Sources */,
+				5A8B2E003AD128DD29F0D37E /* Default+Wrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

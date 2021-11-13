@@ -7,13 +7,14 @@
 //
 
 import UIKit
-
+import Rainbow
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
+        Rainbow.shared
     }
 
 

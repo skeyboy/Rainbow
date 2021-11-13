@@ -6,6 +6,6 @@ target 'Rainbow' do
   use_frameworks!
 
   # Pods for Rainbow
-  pod 'SwiftSoup'
+  pod 'Rainbow',:git=>"git@github.com:skeyboy/Rainbow.git",:branch=>"dev"
 
 end
